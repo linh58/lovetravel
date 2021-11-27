@@ -23,6 +23,7 @@
 }
 
 .header__navbar-list{   
+    padding-left: 10px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
