@@ -1,0 +1,52 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --height-header: 104px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; 
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+}
+
+body {
+    font-size: 1.4rem;
+}
+
+.translate-y-12 {
+    transform: translateY(12px);
+}
+
+.translate-y-24 {
+    transform: translateY(24px);
+}
+
+.padding-top-30 {
+    padding-top: 30px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} 
+/* Logo */
+.logo {
+    padding: 9px 10px 10px;
+}
+
+.logo-img {
+    width: 160px;
+    height: 37px;
+}
+
