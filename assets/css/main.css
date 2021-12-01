@@ -892,6 +892,33 @@ select::-ms-expand {
     height: 100%;
 }
 
+.slideshow-photo {
+    display: none;
+}
+
+.slideshow-photo.slideshow-active {
+    display: block;
+}
+
+.lights-bar {
+    display: flex;
+    position: absolute;
+    top: 25px;
+    left: 35%;
+}
+
+.light-bar {
+    margin: 0 10px;
+    width: 60px;
+    height: 3px;
+    cursor: pointer;
+    background: #A4BDD4;
+}
+
+.light-bar.selected {
+    background-color: rgba(255,255,255,1);
+}
+
 .container__slideshow-time {
     display: flex;
     flex-wrap: wrap;
