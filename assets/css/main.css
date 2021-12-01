@@ -902,9 +902,9 @@ select::-ms-expand {
 
 .lights-bar {
     display: flex;
-    position: absolute;
+    position: relative;
+    justify-content: center;
     top: 25px;
-    left: 35%;
 }
 
 .light-bar {
