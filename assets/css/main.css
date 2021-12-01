@@ -905,6 +905,7 @@ select::-ms-expand {
     position: relative;
     justify-content: center;
     top: 25px;
+    z-index: 99;
 }
 
 .light-bar {
@@ -918,6 +919,23 @@ select::-ms-expand {
 .light-bar.selected {
     background-color: rgba(255,255,255,1);
 }
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .6} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .6} 
+    to {opacity: 1}
+  }
 
 .container__slideshow-time {
     display: flex;
